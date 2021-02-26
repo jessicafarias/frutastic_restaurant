@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import Smoothies from './containers/Smoothies';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Smoothies/>
   </React.StrictMode>,
   document.getElementById('root')
 );

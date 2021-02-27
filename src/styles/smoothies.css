@@ -1,3 +1,26 @@
-.st1{display:inline;}
-.st2{fill:#B0347E;}
-.st3{fill:#FFFFFF;}
+.st0{fill:#FFFFFF;}
+.st1{fill:#D68A61;}
+
+.img_container {
+  height: 110px;
+  max-width: 110px;
+}
+
+.price{
+  margin: 0;
+  position: absolute;
+  width: 50%;
+  height:50%;
+  bottom: 0;
+  left: 20%;
+  z-index: 1;
+  /*-ms-transform: translateX(0%);
+  transform: translateX(30%)*/
+}
+
+.smoothie{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+}

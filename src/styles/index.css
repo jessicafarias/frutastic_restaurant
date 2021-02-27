@@ -12,3 +12,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'sunglory';
+  src: url(../assets/sunglory.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amatic';
+  src: url(../assets/Amatic-Bold.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Colby';
+  src: url(../assets/Colby-CpExtL2t.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+
+.sunglory{
+  color:white;
+  font-family: 'sunglory','Courier New', Courier, monospace;
+  line-height: 15px;
+  font-size: 20px;
+  text-align: start;
+}

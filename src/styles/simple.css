@@ -1,9 +1,4 @@
-.juice {
-  font-size: 35px;
-  font-family: 'Colby','Courier New', Courier, monospace;
-}
-
-.juice_tag { 
+.tag {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,4 +7,10 @@
   align-self: center;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.product_name{
+  font-size: 35px;
+  font-family: 'Colby','Courier New', Courier, monospace;
+  color: white;
 }

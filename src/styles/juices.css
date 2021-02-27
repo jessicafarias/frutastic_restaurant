@@ -1,0 +1,9 @@
+.juice {
+  font-size: 35px;
+  font-family: 'Colby','Courier New', Courier, monospace;
+}
+
+.juice_tag { 
+  min-width: 30px;
+  max-width: 50px;
+}

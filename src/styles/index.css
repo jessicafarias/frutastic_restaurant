@@ -66,3 +66,9 @@ code {
   color: white;
   padding-bottom: 20px;
 }
+
+.price_text {
+  font-family: 'Amatic', 'Courier New', Courier, monospace;
+  font-size: 70px;
+  transform: translateY(25%);
+}

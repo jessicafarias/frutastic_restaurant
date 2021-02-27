@@ -25,12 +25,6 @@
   transform: translateX(30%)*/
 }
 
-.price_text {
-  font-family: 'Amatic', 'Courier New', Courier, monospace;
-  font-size: 70px;
-  transform: translateY(25%);
-}
-
 .smoothie{
   position: absolute;
   right: 0;

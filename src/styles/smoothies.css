@@ -2,25 +2,45 @@
 .st1{fill:#D68A61;}
 
 .img_container {
-  height: 110px;
+  height: 70px;
   max-width: 110px;
+  position: relative;
+}
+
+.price_container {
+  position: relative;
 }
 
 .price{
   margin: 0;
   position: absolute;
-  width: 50%;
-  height:50%;
+  width: 60%;
+  height:60%;
   bottom: 0;
-  left: 20%;
+  min-width: 30px;
+  max-width: 50px;
+  left: 0%;
   z-index: 1;
   /*-ms-transform: translateX(0%);
   transform: translateX(30%)*/
+}
+
+.price_text {
+  font-family: 'Amatic', 'Courier New', Courier, monospace;
+  font-size: 70px;
+  transform: translateY(25%);
 }
 
 .smoothie{
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 100px;
+  height: 70px;
+}
+
+.smoothie_name {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Amatic','Courier New', Courier, monospace;
 }

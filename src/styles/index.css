@@ -47,11 +47,22 @@ code {
   line-height: 15px;
   font-size: 20px;
   text-align: start;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .title {
   color:#E9bf46;
   text-align: center;
   font-size: 70px;
-  font-family: 'seaside','Courier New', Courier, monospace;
+  font-family: 'Seaside','Courier New', Courier, monospace;
+}
+
+.subtitle {
+  font-family:'Amatic','Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
 }

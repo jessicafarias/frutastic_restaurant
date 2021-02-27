@@ -44,3 +44,10 @@
   text-align: center;
   font-family: 'Amatic','Courier New', Courier, monospace;
 }
+
+.nicecream {
+  color: white;
+  font-family: 'Seaside','Courier New', Courier, monospace;
+  font-size: 50px;
+  transform: translateY(-40%);
+}

@@ -130,7 +130,7 @@ const Smoothie = props => {
         </div>
         <div />
       </div>
-      <div className="col-7">
+      <div className="col-7 p-0">
         <div className="">
           <p className="sunglory h-100">{smoothie.description}</p>
         </div>

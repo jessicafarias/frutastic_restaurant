@@ -5,12 +5,15 @@ const Frappes = () => {
   return (
     <div>
       <p className="title">Frappes</p>
-      {FrappeList.map(frappe => (
-        <Simple
-          key={frappe.id}
-          product={frappe}
-        />
-      ))}
+      <p className="subtitle w-75 m-auto">ELIGE EL ENDULZANTE Y LECHE DE TU PREFERENCIA</p>
+      <div className="p-3">
+        {FrappeList.map(frappe => (
+          <Simple
+            key={frappe.id}
+            product={frappe}
+          />
+        ))}
+      </div>
     </div>
   );
 };

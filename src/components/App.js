@@ -9,8 +9,6 @@ import Smoothies from '../containers/Smoothies';
 import '../styles/App.css';
 
 function App() {
-
-  
   return (
     <>
       <Smoothies />

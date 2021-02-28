@@ -4,7 +4,7 @@ const Daiquiris = () => {
   const DaiquiriList = [{
     id: 1, name: 'FRAPUCCINO', precio: 10, chamoy: 'block', color: 'white',
   }, {
-    id: 1, name: 'MOCKACCINO', precio: 10, color: 'yellow',
+    id: 2, name: 'MOCKACCINO', precio: 10, color: 'yellow',
   }];
   return (
     <div>

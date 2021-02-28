@@ -1,7 +1,7 @@
 import Basic from '../components/Basic';
 
 const Licuados = () => {
-  const LicuadosList = [{ id: 1, name: 'FRAPUCCINO', precio: 10 }, { id: 1, name: 'MOCKACCINO', precio: 10 }];
+  const LicuadosList = [{ id: 1, name: 'FRAPUCCINO', precio: 10 }, { id: 2, name: 'MOCKACCINO', precio: 10 }];
   return (
     <div>
       <p className="title">Licuados</p>

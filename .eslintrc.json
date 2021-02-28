@@ -19,7 +19,9 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off",
-    "arrow-parens": ["error", "as-needed"]
+    "arrow-parens": ["error", "as-needed"],
+    "import/no-dynamic-require": "off",
+    "global-require": "off"
   },
   "ignorePatterns": [
     "dist/",

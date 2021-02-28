@@ -6,10 +6,11 @@ const Paninis = () => {
   }];
   return (
     <div>
-      <div className="title">Avocado</div>
+      <div className="title">Paninos</div>
+      <p className="subtitle w-100 p-1">TODOS ACOMPANADOS CON NUESTRO MIX DE LECHUGAS Y AMARANTO.ELIGE TU PAN PREFERIDO EN CUALQUIER VARIEDAD (PAN DE SEMILLAS O PAN BAGUETTE INTEGRAL)</p>
       {PaninisList.map(panino => (
         <Basic
-          key={avocado.id}
+          key={panino.id}
           product={panino}
         />
       ))}

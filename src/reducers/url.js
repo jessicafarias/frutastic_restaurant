@@ -2,7 +2,7 @@ import {
   ADD, REMOVE, SEND,
 } from '../actions/index';
 
-const initialState = 'https://wa.me/529993861435?text=Buenos+d%C3%ADas%21+Me+gustar%C3%ADa+ordernar%3A';
+const initialState = 'https://wa.me/529993448610?text=Buenos+d%C3%ADas%21+Me+gustar%C3%ADa+ordernar%3A';
 
 const addProduct = (state, product) => {
   const index = state.indexOf(product.name);

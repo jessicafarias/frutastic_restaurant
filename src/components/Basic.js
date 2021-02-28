@@ -6,7 +6,7 @@ const Basic = props => {
   const { product } = props;
   return (
     <div>
-      <div className="row m-2 p-0">
+      <div className="row m-2 pt-3">
         <div className="col-2 m-0 p-0">
           <svg
             className="tag"

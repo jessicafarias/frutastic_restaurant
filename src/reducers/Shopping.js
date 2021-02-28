@@ -2,22 +2,20 @@ import {
   ADD, REMOVE, SEND,
 } from '../actions/index';
 
-const initialState = [{ id: 1, quantity: 1, product_name: 'oro verde' }];
+const initialState = [{
+  id: 1, quantity: 1, name: 'oro verde', price: 10,
+}];
 
 const shoppingReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD:
-      return [...state, {
-        // FIND ID INCREASE THE CURRENT
-        // IS THERE NO ID CREATE NEW STATE
-        // RETURN STATE
-      }];
-    case REMOVE:
       return state;
+    case REMOVE:
       // FIND ID
       // IS THERE ID REMOVE ONE
       // IT IS JUST ONE REMOVE IT FROM THE LIST
       // RETURN NEW STATE
+      return state;
     case SEND:
       return [];
     default:

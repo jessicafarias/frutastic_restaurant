@@ -6,13 +6,13 @@ const Licuados = props => {
   const LicuadosList = [{
     id: 1,
     name: 'NATURAL',
-    precio: 10,
+    precio: 30,
     description: 'Canela , leche y avena',
   },
   {
     id: 2,
     name: 'LICUADO PERSONALIZADO',
-    precio: 10,
+    precio: 30,
     description: 'elige hasta 2 frutas : plátano, fresa, mango, piña, melón, papaya, guayaba, manzana',
   }];
   return (

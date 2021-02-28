@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import '../styles/juices.css';
 
 const Juice = props => {
-  const { juice } = props;
+  const { juice, updateShopping } = props;
   return (
     <div className="row m-2">
       <div className="col-3 text-center">
@@ -35,7 +35,7 @@ const Juice = props => {
         </div>
       </div>
       <div className="col-2 d-flex justify-content-center align-items-center">
-        <button type="submit">Add</button>
+        <button type="submit" onClick={() => { updateShopping(juice); }}>Add</button>
       </div>
     </div>
   );
@@ -49,6 +49,7 @@ Juice.propTypes = {
     precio: PropTypes.number,
     color: PropTypes.string,
   }).isRequired,
+  updateShopping: PropTypes.func.isRequired,
 };
 
 export default Juice;

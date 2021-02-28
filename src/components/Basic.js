@@ -3,7 +3,7 @@ import '../styles/simple.css';
 import Image from './Image';
 
 const Basic = props => {
-  const { product } = props;
+  const { product, updateShopping } = props;
   return (
     <div>
       <div className="row m-2 pt-3">
@@ -37,7 +37,7 @@ const Basic = props => {
           </div>
         </div>
         <div className="col-2 d-flex justify-content-center align-items-center m-0 p-0">
-          <button type="submit">Add</button>
+          <button type="submit" onClick={() => { updateShopping(product); }}>Add</button>
         </div>
       </div>
       <Image url={product.image} />
@@ -53,6 +53,7 @@ Basic.propTypes = {
     precio: PropTypes.number,
     image: PropTypes.string,
   }).isRequired,
+  updateShopping: PropTypes.func.isRequired,
 };
 
 export default Basic;

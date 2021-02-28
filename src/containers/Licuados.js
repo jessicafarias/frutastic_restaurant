@@ -1,7 +1,20 @@
+import PropTypes from 'prop-types';
 import Basic from '../components/Basic';
 
-const Licuados = () => {
-  const LicuadosList = [{ id: 1, name: 'FRAPUCCINO', precio: 10 }, { id: 2, name: 'MOCKACCINO', precio: 10 }];
+const Licuados = props => {
+  const { updateShopping } = props;
+  const LicuadosList = [{
+    id: 1,
+    name: 'NATURAL',
+    precio: 10,
+    description: 'Canela , leche y avena',
+  },
+  {
+    id: 2,
+    name: 'LICUADO PERSONALIZADO',
+    precio: 10,
+    description: 'elige hasta 2 frutas : plátano, fresa, mango, piña, melón, papaya, guayaba, manzana',
+  }];
   return (
     <div>
       <p className="title">Licuados</p>
@@ -11,11 +24,16 @@ const Licuados = () => {
           <Basic
             key={frappe.id}
             product={frappe}
+            updateShopping={updateShopping}
           />
         ))}
       </div>
     </div>
   );
+};
+
+Licuados.propTypes = {
+  updateShopping: PropTypes.func.isRequired,
 };
 
 export default Licuados;

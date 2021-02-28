@@ -17,7 +17,6 @@ const addProduct = (state, product) => {
 const removeProduct = (state, product) => {
   const index = state.indexOf(product.name);
   if (index !== -1) {
-    console.log(state.slice(index - 2));
     const res2 = parseInt(state.slice(index - 2, index), 10) - 1;
     const newState = state.slice(0, index - 2) + res2 + state.slice(index - 1);
     return newState;

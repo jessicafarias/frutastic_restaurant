@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Product from '../components/product';
@@ -18,30 +18,21 @@ import { removeProductAction, addProductAction } from '../actions';
 const Shopping = props => {
   const { products, url } = props;
 
+  const [total, setTotal] = useState(0);
+
   const handleAddProduct = product => {
     const { addProduct } = props;
     addProduct(product);
+    setTotal(total + product.precio);
   };
 
   const handleRemoveBook = product => {
     const { removeProduct } = props;
     removeProduct(product);
   };
-  /*
-  const handleSendMessage = message => {
-    products.map(product => {
-      products.concat(`%0D%0A${product.id}.${product.name}`);
-    });
-    MessageToSend.concat
-    ('%0D%0A%0D%0AEn+un+momento+le+mando+la+ubicaci%C3%B3n+y+una+referencia.
-    %0D%0A%C2%A1Muchas+gracias%21');
-  };
 
-  // const filteredBooks = books.filter(book => (
-  //  !!((filtered === null || filtered === book.category))));
-*/
   return (
-    <div>
+    <div className="pb-5">
       <Smoothies updateShopping={handleAddProduct} />
       <Juices updateShopping={handleAddProduct} />
       <Frappes updateShopping={handleAddProduct} />
@@ -50,6 +41,8 @@ const Shopping = props => {
       <Salads updateShopping={handleAddProduct} />
       <Avocados updateShopping={handleAddProduct} />
       <Paninis updateShopping={handleAddProduct} />
+
+      <div className="seleccionados"> Productos seleccionados: </div>
       <div>
         {products.map(product => (
           <Product
@@ -61,11 +54,18 @@ const Shopping = props => {
       </div>
 
       <div className="subtotal">
-        <p>100</p>
+        <p className="text_subtotal">
+          $
+          {total}
+        </p>
       </div>
-      <p className="subtotoal">{url}</p>
+
+      <p className="subtitle">
+        TOTAL :$
+        {total}
+      </p>
+
       <a href={url} target="_blank" rel="noreferrer">
-        {/* btn btn-primary btn-pedir */}
         <div className="btn_style btn-efect">
           HACER PEDIDO
         </div>
@@ -78,7 +78,7 @@ Shopping.propTypes = {
   products: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.number,
     name: PropTypes.string,
-    price: PropTypes.number,
+    precio: PropTypes.number,
     quatity: PropTypes.number,
   })).isRequired,
   addProduct: PropTypes.func.isRequired,

@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
+import '../styles/shopping.css';
 
 const Product = props => {
   const { product } = props;
   return (
     <div>
-      <p className="subtitle w-100">
+      <p className="item w-100">
         {product.quantity}
         {'. '}
         {product.name}

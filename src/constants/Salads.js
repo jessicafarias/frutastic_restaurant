@@ -22,7 +22,7 @@ const SaladsList = [{
 {
   id: 4,
   name: 'PERLA Y LUNA',
-  precio: 60,
+  precio: 70,
   image: 'perla',
   description: 'Perlas de queso de cabra con nuez, rodajitas de aceitunas y medias lunas de manzana, sobre frescas lechugas con espinaca. Espolvoreado con amaranto y chia. Aderezo a parte',
 }];

@@ -6,7 +6,7 @@ export const addProductAction = product => ({
   type: ADD,
   id: product.id,
   name: product.name,
-  price: product.price,
+  price: product.precio,
   quantity: 1,
 });
 

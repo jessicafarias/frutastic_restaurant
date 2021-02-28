@@ -4,7 +4,11 @@ const Product = props => {
   const { product } = props;
   return (
     <div>
-      <p className="subtitle w-100">{product.name}</p>
+      <p className="subtitle w-100">
+        {product.quantity}
+        {'. '}
+        {product.name}
+      </p>
     </div>
   );
 };
@@ -15,6 +19,7 @@ Product.propTypes = {
     description: PropTypes.string,
     name: PropTypes.string,
     precio: PropTypes.number,
+    quantity: PropTypes.number,
   }).isRequired,
 };
 

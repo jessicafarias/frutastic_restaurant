@@ -10,11 +10,12 @@ import Daiquiris from './Daiquiris';
 import Salads from './Salads';
 import Avocados from './Avocados';
 import Paninis from './Paninis';
+import '../styles/shopping.css';
 
 import { removeProductAction, addProductAction } from '../actions';
 
 const Shopping = props => {
-  const { products } = props;
+  const { products, url } = props;
 
   const handleAddProduct = product => {
     const { addProduct } = props;
@@ -25,10 +26,19 @@ const Shopping = props => {
     const { removeProduct } = props;
     removeProduct(product);
   };
+  /*
+  const handleSendMessage = message => {
+    products.map(product => {
+      products.concat(`%0D%0A${product.id}.${product.name}`);
+    });
+    MessageToSend.concat
+    ('%0D%0A%0D%0AEn+un+momento+le+mando+la+ubicaci%C3%B3n+y+una+referencia.
+    %0D%0A%C2%A1Muchas+gracias%21');
+  };
 
   // const filteredBooks = books.filter(book => (
   //  !!((filtered === null || filtered === book.category))));
-
+*/
   return (
     <div>
       <Smoothies updateShopping={handleAddProduct} />
@@ -48,6 +58,17 @@ const Shopping = props => {
           />
         ))}
       </div>
+
+      <div className="subtotal">
+        <p>100</p>
+      </div>
+      <p className="subtotoal">{url}</p>
+      <a href={url} target="_blank" rel="noreferrer">
+        <div className="btn btn-primary btn-pedir">
+          HACER PEDIDO
+        </div>
+      </a>
+
     </div>
   );
 };
@@ -60,10 +81,12 @@ Shopping.propTypes = {
   })).isRequired,
   addProduct: PropTypes.func.isRequired,
   removeProduct: PropTypes.func.isRequired,
+  url: PropTypes.string.isRequired,
 };
 
 const mapStateToProps = state => ({
   products: state.products,
+  url: state.url,
 });
 
 const mapDispatchToProps = dispatch => ({

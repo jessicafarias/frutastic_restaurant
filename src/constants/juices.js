@@ -97,7 +97,7 @@ const JuicesList = [{
   precio: 20,
 },
 {
-  id: 14,
+  id: 15,
   name: 'PERSONALIZADO',
   description: 'Hecho con jugo natural, hecho al momento',
   color: '#D5AE1C',

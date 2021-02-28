@@ -1,0 +1,19 @@
+.subtotal{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: black;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(224, 202, 0);
+}
+
+.btn-pedir {
+  cursor: pointer;
+}
+
+.btn-pedir:hover {
+  cursor: pointer;
+  background-color: #03bd7f;
+}

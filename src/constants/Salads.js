@@ -20,7 +20,7 @@ const SaladsList = [{
   description: 'Rollitos de pechuga de pavo, queso manchego holandés, rollitos de pepino verde y tomate saladet, sobre mezcla de lechugas y espinacas. Espolvoreado con amaranto y chia. Aderezo de la casa a parte',
 },
 {
-  id: 3,
+  id: 4,
   name: 'PERLA Y LUNA',
   precio: 60,
   image: 'perla',

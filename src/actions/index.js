@@ -7,6 +7,7 @@ export const addProductAction = product => ({
   id: product.id,
   name: product.name,
   price: product.price,
+  quantity: 1,
 });
 
 export const removeProductAction = product => ({

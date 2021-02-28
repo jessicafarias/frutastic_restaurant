@@ -1,5 +1,5 @@
-.st0{fill:#FFFFFF;}
-.st1{fill:#D68A61;}
+.st0 { fill: #fff; }
+.st1 { fill: #d68a61; }
 
 .img_container {
   height: 70px;
@@ -11,21 +11,22 @@
   position: relative;
 }
 
-.price{
+.price {
   margin: 0;
   position: absolute;
   width: 60%;
-  height:60%;
+  height: 60%;
   bottom: 0;
   min-width: 30px;
   max-width: 50px;
   left: 0%;
   z-index: 1;
-  /*-ms-transform: translateX(0%);
-  transform: translateX(30%)*/
+
+  /* -ms-transform: translateX(0%);
+  transform: translateX(30%) */
 }
 
-.smoothie{
+.smoothie {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -36,12 +37,12 @@
   color: white;
   font-size: 30px;
   text-align: center;
-  font-family: 'Amatic','Courier New', Courier, monospace;
+  font-family: 'Amatic', 'Courier New', Courier, monospace;
 }
 
 .nicecream {
   color: white;
-  font-family: 'Seaside','Courier New', Courier, monospace;
+  font-family: 'Seaside', 'Courier New', Courier, monospace;
   font-size: 50px;
   transform: translateY(-40%);
 }

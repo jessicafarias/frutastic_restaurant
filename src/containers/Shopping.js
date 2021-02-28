@@ -12,8 +12,11 @@ import Avocados from './Avocados';
 import Paninis from './Paninis';
 import '../styles/shopping.css';
 import '../styles/style.scss';
+import WafflesList from '../constants/Waffles';
+import OmeletteList from '../constants/omelettes';
 
 import { removeProductAction, addProductAction } from '../actions';
+import Classic from './Classic';
 
 const Shopping = props => {
   const { products, url } = props;
@@ -41,6 +44,18 @@ const Shopping = props => {
       <Salads updateShopping={handleAddProduct} />
       <Avocados updateShopping={handleAddProduct} />
       <Paninis updateShopping={handleAddProduct} />
+      <Classic
+        title="Waffles"
+        subtitle="RECETA ESPECIAL DE LA CASA PARA WAFFLES CRUJIENTES POR FUERA SUAVES POR DENTRO"
+        List={WafflesList}
+        updateShopping={handleAddProduct}
+      />
+
+      <Classic
+        title="Omelettes"
+        List={OmeletteList}
+        updateShopping={handleAddProduct}
+      />
 
       <div className="seleccionados"> Productos seleccionados: </div>
       <div>

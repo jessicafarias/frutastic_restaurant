@@ -1,6 +1,6 @@
 const OmeletteList = [{
   id: 1,
-  name: 'DE 3 QUESOS',
+  name: 'OMELETTE DE 3 QUESOS',
   precio: 70,
   description: 'Tortilla de 3 huevitos batidos, rellena de queso de cabra, queso azul y manchego. Incluye mix de lechugas y amaranto',
 }, {
@@ -12,7 +12,7 @@ const OmeletteList = [{
 },
 {
   id: 3,
-  name: 'DE LA CASA',
+  name: 'OMELLETE DE LA CASA',
   precio: 60,
   description: '3 huebitos batidos, en su interior llevan pechuga de pavo y queso manchego acompañados con mix de lechugas y amaranto',
 }];

@@ -118,7 +118,10 @@ const Smoothie = props => {
                   17.25,28.92 16.97,17.73 28.16,18 32.17,7.56 42.4,12.1 50.12,4 57.84,12.1 68.06,7.56 72.08,18.01 83.27,17.73 82.99,28.92
                   93.44,32.94 88.9,43.16"
                   />
-                  <text x="50%" y="50%" alignmentBaseline="middle" textAnchor="middle" fill="black" stroke="none" className="price_text">{smoothie.precio}</text>
+                  <text x="50%" y="50%" alignmentBaseline="middle" textAnchor="middle" fill="black" stroke="none" className="price_text">
+                    $
+                    {smoothie.precio}
+                  </text>
                 </g>
 
               </svg>
@@ -136,7 +139,7 @@ const Smoothie = props => {
         </div>
       </div>
       <div className="col-2 d-flex justify-content-center align-items-center">
-        <button type="submit" onClick={() => { updateShopping(smoothie); }}>Add</button>
+        <button type="submit" onClick={() => { updateShopping(smoothie); }}>+</button>
       </div>
     </div>
   );

@@ -2,19 +2,25 @@ import PropTypes from 'prop-types';
 import '../styles/daiquiri.css';
 
 const Daiquiri = props => {
-  const { daiquiri } = props;
+  const { daiquiri, updateShopping } = props;
   return (
-    <div className="col-6">
+    <div className="col-6 pb-4">
       <svg
         version="1.1"
-        id="Capa_1"
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
         viewBox="0 0 224 213"
         enableBackground="new 0 0 224 213;"
       >
-        <text transform="matrix(1 0 0 1 43.5959 210.3093)" className="st0 st1 st2">{daiquiri.name}</text>
+        <text
+          transform="matrix(1 0 0 1 0 210.3093)"
+          className="st0 st1 st2 text-center"
+          x="25%"
+          y="0px"
+        >
+          {daiquiri.name}
+        </text>
         <path
           className="st0"
           d="M100.79,22.82c-1.63,21.02-3.27,42.04-4.9,63.06c-0.64,8.23-1.28,16.44-1.92,24.67
@@ -121,6 +127,7 @@ const Daiquiri = props => {
         />
         <text id="precio" transform="matrix(1 0 0 1 167.0544 141.5906)" className="st5 st1 st6">$45</text>
       </svg>
+      <button type="submit" onClick={() => { updateShopping(daiquiri); }}>+</button>
     </div>
   );
 };
@@ -133,6 +140,7 @@ Daiquiri.propTypes = {
     precio: PropTypes.number,
     color: PropTypes.string,
   }).isRequired,
+  updateShopping: PropTypes.func.isRequired,
 };
 
 export default Daiquiri;

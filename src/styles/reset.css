@@ -135,3 +135,12 @@ table {
   -moz-box-sizing: border-box !important;
   box-sizing: border-box !important;
 }
+
+a {
+  color: none;
+  text-decoration: none; 
+}
+a:hover {
+  color: inherit;
+  text-decoration: inherit; 
+}

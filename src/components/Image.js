@@ -8,11 +8,11 @@ const Image = props => {
 
   switch (url) {
     case 'perla':
-      return <img src={perla} alt="perla" />;
+      return <img className="w-50" src={perla} alt="perla" />;
     case 'rollitos':
-      return <img src={rollitos} alt="rollito" />;
+      return <img className="w-50" src={rollitos} alt="rollito" />;
     case 'citrica':
-      return <img src={citrica} alt="citrica" />;
+      return <img className="w-50" src={citrica} alt="citrica" />;
     default:
       return <span />;
   }

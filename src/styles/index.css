@@ -76,3 +76,31 @@ code {
   font-size: 70px;
   transform: translateY(25%);
 }
+
+button {
+  border: none;
+  background: #e0bf03;
+  width: 30px;
+  height: 30px;
+  color: #ffffff !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease 0s;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+button:hover{
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}

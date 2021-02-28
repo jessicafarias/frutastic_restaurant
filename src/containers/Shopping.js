@@ -11,6 +11,7 @@ import Salads from './Salads';
 import Avocados from './Avocados';
 import Paninis from './Paninis';
 import '../styles/shopping.css';
+import '../styles/style.scss';
 
 import { removeProductAction, addProductAction } from '../actions';
 
@@ -64,7 +65,8 @@ const Shopping = props => {
       </div>
       <p className="subtotoal">{url}</p>
       <a href={url} target="_blank" rel="noreferrer">
-        <div className="btn btn-primary btn-pedir">
+        {/* btn btn-primary btn-pedir */}
+        <div className="btn_style btn-efect">
           HACER PEDIDO
         </div>
       </a>

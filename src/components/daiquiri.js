@@ -12,7 +12,7 @@ const Daiquiri = props => {
         x="0px"
         y="0px"
         viewBox="0 0 224 213"
-        mapStyle="enable-background:new 0 0 224 213;"
+        enableBackground="new 0 0 224 213;"
       >
         <text transform="matrix(1 0 0 1 43.5959 210.3093)" className="st0 st1 st2">{daiquiri.name}</text>
         <path

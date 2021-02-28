@@ -16,7 +16,7 @@ const Smoothie = props => {
               x="0px"
               y="0px"
               viewBox="0 0 32 67"
-              mapstyle="enable-background:new 0 0 32 67;"
+              enableBackground="new 0 0 32 67;"
             >
               <g id="blanco">
                 <path
@@ -108,7 +108,7 @@ const Smoothie = props => {
                 x="0px"
                 y="0px"
                 viewBox="0 0 100 100"
-                mapStyle="enable-background:new 0 0 100 100;"
+                enableBackground="new 0 0 100 100;"
               >
                 <g>
                   <polygon

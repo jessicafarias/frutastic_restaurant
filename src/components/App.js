@@ -1,3 +1,4 @@
+import Avocados from '../containers/Avocados';
 import Daiquiris from '../containers/Daiquiris';
 import Frappes from '../containers/Frappes';
 import Juices from '../containers/Juices';
@@ -15,6 +16,7 @@ function App() {
       <Licuados />
       <Daiquiris />
       <Salads />
+      <Avocados />
     </>
   );
 }

@@ -4,12 +4,10 @@ import Image from './Image';
 
 const Basic = props => {
   const { product } = props;
-
-  console.log(product.image, 'aSA');
   return (
     <div>
       <div className="row m-2 p-0">
-        <div className="col-3 m-0 p-0">
+        <div className="col-2 m-0 p-0">
           <svg
             className="tag"
             version="1.1"
@@ -18,7 +16,7 @@ const Basic = props => {
             x="0px"
             y="0px"
             viewBox="0 0 100 100"
-            mapStyle="enable-background:new 0 0 100 100;"
+            enableBackground="new 0 0 100 100;"
           >
             <g>
               <polygon
@@ -32,13 +30,13 @@ const Basic = props => {
             </g>
           </svg>
         </div>
-        <div className="col-7">
+        <div className="col-8 m-0 p-0">
           <div>
             <p className="product_name">{product.name}</p>
             <p className="sunglory">{product.description}</p>
           </div>
         </div>
-        <div className="col-2 d-flex justify-content-center align-items-center">
+        <div className="col-2 d-flex justify-content-center align-items-center m-0 p-0">
           <button type="submit">Add</button>
         </div>
       </div>

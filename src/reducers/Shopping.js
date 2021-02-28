@@ -9,7 +9,12 @@ const initialState = [{
 const shoppingReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD:
-      return state;
+      return [...state, {
+        id: action.id,
+        price: action.price,
+        name: action.name,
+        quantity: 1,
+      }];
     case REMOVE:
       // FIND ID
       // IS THERE ID REMOVE ONE

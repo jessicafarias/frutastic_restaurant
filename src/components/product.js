@@ -4,7 +4,7 @@ const Product = props => {
   const { product } = props;
   return (
     <div>
-      <p>{product.id}</p>
+      <p className="subtitle w-100">{product.name}</p>
     </div>
   );
 };

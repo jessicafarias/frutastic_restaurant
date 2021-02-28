@@ -6,6 +6,7 @@ export const addProductAction = product => ({
   type: ADD,
   id: product.id,
   name: product.name,
+  price: product.price,
 });
 
 export const removeProductAction = product => ({

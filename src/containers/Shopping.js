@@ -15,35 +15,36 @@ import { removeProductAction, addProductAction } from '../actions';
 
 const Shopping = props => {
   const { products } = props;
-  /*
+
+  const handleAddProduct = product => {
+    const { addProduct } = props;
+    addProduct(product);
+  };
+
   const handleRemoveBook = product => {
     const { removeProduct } = props;
     removeProduct(product);
   };
 
-  const handleUpdateBook = book => {
-    const { addProduct } = props;
-    addProduct(product);
-  };
-*/
   // const filteredBooks = books.filter(book => (
   //  !!((filtered === null || filtered === book.category))));
 
   return (
     <div>
-      <Smoothies />
-      <Juices />
-      <Frappes />
-      <Licuados />
-      <Daiquiris />
-      <Salads />
-      <Avocados />
-      <Paninis />
+      <Smoothies updateShopping={handleAddProduct} />
+      <Juices updateShopping={handleAddProduct} />
+      <Frappes updateShopping={handleAddProduct} />
+      <Licuados updateShopping={handleAddProduct} />
+      <Daiquiris updateShopping={handleAddProduct} />
+      <Salads updateShopping={handleAddProduct} />
+      <Avocados updateShopping={handleAddProduct} />
+      <Paninis updateShopping={handleAddProduct} />
       <div>
         {products.map(product => (
           <Product
-            key={product.id}
+            key={product.name}
             product={product}
+            delete={handleRemoveBook}
           />
         ))}
       </div>
@@ -57,11 +58,9 @@ Shopping.propTypes = {
     price: PropTypes.number,
     quatity: PropTypes.number,
   })).isRequired,
-};
-/*
-  removeProduct: PropTypes.func.isRequired,
   addProduct: PropTypes.func.isRequired,
-*/
+  removeProduct: PropTypes.func.isRequired,
+};
 
 const mapStateToProps = state => ({
   products: state.products,

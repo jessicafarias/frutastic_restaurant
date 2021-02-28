@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import '../styles/smoothies.css';
 
 const Smoothie = props => {
-  const { smoothie } = props;
+  const { smoothie, updateShopping } = props;
   return (
     <div className="row justify-content-center align-items-center mr-2 ml-2">
       <div className="col-3">
@@ -125,7 +125,7 @@ const Smoothie = props => {
             </div>
           </div>
           <div>
-            <p className="smoothie_name">{smoothie.nombre}</p>
+            <p className="smoothie_name">{smoothie.name}</p>
           </div>
         </div>
         <div />
@@ -136,7 +136,7 @@ const Smoothie = props => {
         </div>
       </div>
       <div className="col-2 d-flex justify-content-center align-items-center">
-        <button type="submit">Add</button>
+        <button type="submit" onClick={() => { updateShopping(smoothie); }}>Add</button>
       </div>
     </div>
   );
@@ -146,8 +146,9 @@ Smoothie.propTypes = {
     id: PropTypes.number,
     description: PropTypes.string,
     color: PropTypes.string,
-    nombre: PropTypes.string,
+    name: PropTypes.string,
     precio: PropTypes.number,
   }).isRequired,
+  updateShopping: PropTypes.func.isRequired,
 };
 export default Smoothie;

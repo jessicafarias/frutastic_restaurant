@@ -36,26 +36,45 @@ const Shopping = props => {
 
   return (
     <div className="pb-5">
-      <Smoothies updateShopping={handleAddProduct} />
-      <Juices updateShopping={handleAddProduct} />
-      <Frappes updateShopping={handleAddProduct} />
-      <Licuados updateShopping={handleAddProduct} />
-      <Daiquiris updateShopping={handleAddProduct} />
-      <Salads updateShopping={handleAddProduct} />
-      <Avocados updateShopping={handleAddProduct} />
-      <Paninis updateShopping={handleAddProduct} />
-      <Classic
-        title="Waffles"
-        subtitle="RECETA ESPECIAL DE LA CASA PARA WAFFLES CRUJIENTES POR FUERA SUAVES POR DENTRO"
-        List={WafflesList}
-        updateShopping={handleAddProduct}
-      />
+      <div className="row">
+        <div className="col-sm-12 col-lg-6">
+          <Smoothies updateShopping={handleAddProduct} />
+        </div>
+        <div className="col-sm-12 col-lg-6">
+          <Juices updateShopping={handleAddProduct} />
+        </div>
+      </div>
 
-      <Classic
-        title="Omelettes"
-        List={OmeletteList}
-        updateShopping={handleAddProduct}
-      />
+      <div className="row">
+        <div className="col-sm-12 col-lg-5">
+          <Frappes updateShopping={handleAddProduct} />
+          <Licuados updateShopping={handleAddProduct} />
+        </div>
+        <div className="col-sm-12 col-lg-6">
+          <Daiquiris updateShopping={handleAddProduct} />
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-sm-12 col-lg-6">
+          <Salads updateShopping={handleAddProduct} />
+          <Avocados updateShopping={handleAddProduct} />
+        </div>
+        <div className="col-sm-12 col-lg-6">
+          <Paninis updateShopping={handleAddProduct} />
+          <Classic
+            title="Waffles"
+            subtitle="RECETA ESPECIAL DE LA CASA PARA WAFFLES CRUJIENTES POR FUERA SUAVES POR DENTRO"
+            List={WafflesList}
+            updateShopping={handleAddProduct}
+          />
+          <Classic
+            title="Omelettes"
+            List={OmeletteList}
+            updateShopping={handleAddProduct}
+          />
+        </div>
+      </div>
 
       <div className="seleccionados"> Productos seleccionados: </div>
       <div>

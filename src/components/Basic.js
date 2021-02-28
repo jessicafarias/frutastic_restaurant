@@ -5,8 +5,8 @@ import Image from './Image';
 const Basic = props => {
   const { product, updateShopping } = props;
   return (
-    <div>
-      <div className="row m-2 pb-3">
+    <div className="col-12">
+      <div className="row pb-3 m-0">
         <div className="col-2 m-0 p-0">
           <svg
             className="tag"
@@ -43,7 +43,7 @@ const Basic = props => {
           <button type="submit" onClick={() => { updateShopping(product); }}>+</button>
         </div>
       </div>
-      <div className="m-auto d-flex justify-content-center align-items-center">
+      <div className="m-auto d-flex justify-content-center align-items-center salad">
         <Image url={product.image} />
       </div>
     </div>

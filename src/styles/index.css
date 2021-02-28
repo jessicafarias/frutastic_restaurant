@@ -1,5 +1,6 @@
 html {
   overflow-x: hidden !important;
+  background-color: rgb(63, 63, 63);
 }
 
 body {
@@ -19,7 +20,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: rgb(17, 16, 16);
+  max-width: 1100px;
+  margin: auto;
 }
 
 code {
@@ -118,4 +121,9 @@ button:hover {
 
 p , div{
   user-select: none;
+}
+
+.w-max {
+  max-width: 700px;
+  margin: auto;
 }

@@ -4,7 +4,7 @@ import '../styles/daiquiri.css';
 const Daiquiri = props => {
   const { daiquiri, updateShopping } = props;
   return (
-    <div className="col-6 pb-4">
+    <div className="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
       <svg
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

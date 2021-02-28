@@ -15,3 +15,8 @@
   font-family: 'Colby', 'Courier New', Courier, monospace;
   color: white;
 }
+
+.salad {
+  max-width: 400px;
+  width: 100%;
+}

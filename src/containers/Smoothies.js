@@ -5,7 +5,7 @@ import smoothiesList from '../constants/smoothies';
 const Smoothies = props => {
   const { updateShopping } = props;
   return (
-    <div>
+    <div className="w-max">
       <div className="d-flex flex-column align-items-center">
         <div className="d-flex flex-row align-items-end p-0 pr-4 mr-4">
           <p className="title">Smoothies</p>

@@ -5,7 +5,7 @@ import JuicesList from '../constants/juices';
 const Juices = props => {
   const { updateShopping } = props;
   return (
-    <div>
+    <div className="w-max">
       <p className="title">Jugos</p>
       <p className="subtitle w-100">PREPARADO AL MOMENTO</p>
       {JuicesList.map(juice => (

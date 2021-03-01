@@ -1,0 +1,56 @@
+.st0 { fill: #fff; }
+.st1 { fill: #d68a61; }
+
+.img_container {
+  height: 70px;
+  max-width: 77px;
+  position: relative;
+}
+
+.price_container {
+  position: relative;
+}
+
+.price {
+  margin: 0;
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  bottom: 0;
+  min-width: 30px;
+  max-width: 50px;
+  left: 0%;
+  z-index: 1;
+
+  /* -ms-transform: translateX(0%);
+  transform: translateX(30%) */
+}
+
+.smoothie {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 70px;
+}
+
+.smoothie_name {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Amatic', 'Courier New', Courier, monospace;
+}
+
+.nicecream {
+  color: white;
+  font-family: 'Seaside', 'Courier New', Courier, monospace;
+  font-size: 50px;
+  transform: translateY(-40%);
+}
+
+.max-200 {
+  max-width: 300px;
+  border-radius: 10px;
+  margin:auto;
+  object-fit: fill;
+  object-position: center center;
+}

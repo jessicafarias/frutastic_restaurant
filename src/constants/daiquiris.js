@@ -37,21 +37,21 @@ const DaiquiriList = [
   {
     id: 6,
     name: 'CHILIFRESA',
-    color: 'yellow',
+    color: 'red',
     precio: 45,
     chamoy: 'block',
   },
   {
     id: 7,
     name: 'BERRIE',
-    color: 'red',
+    color: 'purple',
     precio: 45,
     chamoy: 'none',
   },
   {
     id: 8,
     name: 'CHILIBERRIE',
-    color: 'yellow',
+    color: 'purple',
     precio: 45,
     chamoy: 'block',
   }];

@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import '../styles/smoothies.css';
+import '../styles/shopping.css';
 
 const Smoothie = props => {
   const { smoothie, updateShopping } = props;
   return (
-    <div className="row justify-content-center align-items-center mr-2 ml-2">
+    <div className="row justify-content-center align-items-center mr-2 ml-2 mb-3">
       <div className="col-3">
         <div className="d-flex flex-column">
           <div className="img_container">
@@ -103,7 +104,6 @@ const Smoothie = props => {
             <div className="price">
               <svg
                 version="1.1"
-                id="Capa_1"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"

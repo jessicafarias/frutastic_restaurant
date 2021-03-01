@@ -4,7 +4,7 @@ import '../styles/juices.css';
 const Juice = props => {
   const { juice, updateShopping } = props;
   return (
-    <div className="row m-2">
+    <div className="row m-2 mb-4">
       <div className="col-3 text-center">
         <svg
           className="juice_tag"

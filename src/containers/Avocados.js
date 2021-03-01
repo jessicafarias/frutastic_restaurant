@@ -7,7 +7,7 @@ const Avocados = props => {
 
   return (
     <div>
-      <div className="title">Avocado</div>
+      <div className="title">Avocado toast</div>
       {AvocadoList.map(avocado => (
         <Basic
           key={avocado.id}

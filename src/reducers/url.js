@@ -16,12 +16,16 @@ const addProduct = (state, product) => {
 
 const removeProduct = (state, product) => {
   const index = state.indexOf(product.name);
-  if (index !== -1) {
-    const res2 = parseInt(state.slice(index - 2, index), 10) - 1;
-    const newState = state.slice(0, index - 2) + res2 + state.slice(index - 1);
+  const longitud = product.name.length;
+  let res2 = parseInt(state.slice(index - 2, index), 10);
+
+  if (res2 <= 1) {
+    const newState = state.slice(0, index - 8) + state.slice((index + longitud), state.length);
     return newState;
   }
-  return `${state}%0D%0A${product.quantity}.${product.name}`;
+  res2 -= 1;
+  const newState = state.slice(0, index - 2) + res2 + state.slice(index - 1);
+  return newState;
 };
 
 const urlReducer = (state = initialState, action) => {

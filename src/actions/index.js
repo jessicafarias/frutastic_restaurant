@@ -13,6 +13,9 @@ export const addProductAction = product => ({
 export const removeProductAction = product => ({
   type: REMOVE,
   id: product.id,
+  name: product.name,
+  price: product.precio,
+  quantity: 1,
 });
 
 export const sendShoppingCarAction = shopping => ({

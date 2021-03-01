@@ -46,3 +46,7 @@
   font-family: 'Amatic', 'Arial Narrow Bold', sans-serif;
   padding: 10px;
 }
+
+.btn-remove {
+  background-color: rgb(177, 5, 5);
+}

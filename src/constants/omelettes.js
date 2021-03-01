@@ -12,9 +12,9 @@ const OmeletteList = [{
 },
 {
   id: 3,
-  name: 'OMELLETE DE LA CASA',
+  name: 'OMELETTE DE LA CASA',
   precio: 60,
-  description: '3 huebitos batidos, en su interior llevan pechuga de pavo y queso manchego acompañados con mix de lechugas y amaranto',
+  description: '3 huevitos batidos, en su interior llevan pechuga de pavo y queso manchego acompañados con mix de lechugas y amaranto',
 }];
 
 export default OmeletteList;

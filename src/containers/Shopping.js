@@ -33,6 +33,7 @@ const Shopping = props => {
   const handleRemoveBook = product => {
     const { removeProduct } = props;
     removeProduct(product);
+    setTotal(total - product.price);
   };
 
   return (
@@ -87,7 +88,7 @@ const Shopping = props => {
           <Product
             key={product.name}
             product={product}
-            delete={handleRemoveBook}
+            deleteproduct={handleRemoveBook}
           />
         ))}
       </div>

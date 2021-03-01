@@ -19,16 +19,23 @@ const addProduct = (state, product) => {
   }];
 };
 
+const removeProduct = (state, product) => {
+  const index = state.map(e => e.name).indexOf(product.name);
+  const newState = state.slice(0, index).concat(state.slice(index + 1));
+  const objectUpdate = state[index];
+  if (objectUpdate.quantity !== 1) {
+    objectUpdate.quantity -= 1;
+    return [...newState, objectUpdate];
+  }
+  return [...newState];
+};
+
 const shoppingReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD:
       return addProduct(state, action);
     case REMOVE:
-      // FIND ID
-      // IS THERE ID REMOVE ONE
-      // IT IS JUST ONE REMOVE IT FROM THE LIST
-      // RETURN NEW STATE
-      return state;
+      return removeProduct(state, action);
     case SEND:
       return [];
     default:

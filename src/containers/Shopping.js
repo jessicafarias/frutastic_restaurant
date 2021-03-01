@@ -92,23 +92,26 @@ const Shopping = props => {
         ))}
       </div>
 
-      <div className="subtotal">
-        <p className="text_subtotal">
-          $
-          {total}
-        </p>
-      </div>
-
-      <p className="subtitle">
-        TOTAL :$
-        {total}
-      </p>
-
-      <a href={url} target="_blank" rel="noreferrer">
-        <div className="btn_style btn-efect">
-          HACER PEDIDO
+      <a href="#bootom">
+        <div className="subtotal">
+          <p className="text_subtotal">
+            $
+            {total}
+          </p>
         </div>
       </a>
+
+      <section id="bootom" href={url}>
+        <p className="subtitle">
+          TOTAL :$
+          {total}
+        </p>
+        <a href={url} target="_blank" rel="noreferrer">
+          <div className="btn_style btn-efect">
+            HACER PEDIDO
+          </div>
+        </a>
+      </section>
 
     </div>
   );

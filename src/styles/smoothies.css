@@ -46,3 +46,10 @@
   font-size: 50px;
   transform: translateY(-40%);
 }
+
+.max-200 {
+  max-width: 200px;
+  margin:auto;
+  object-fit: fill;
+  object-position: center center;
+}

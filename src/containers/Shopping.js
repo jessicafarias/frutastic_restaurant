@@ -14,7 +14,8 @@ import '../styles/shopping.css';
 import '../styles/style.scss';
 import WafflesList from '../constants/Waffles';
 import OmeletteList from '../constants/omelettes';
-
+import daiquiris from '../assets/daiquiris.png';
+import Slider from '../components/Slider';
 import { removeProductAction, addProductAction } from '../actions';
 import Classic from './Classic';
 
@@ -39,6 +40,7 @@ const Shopping = props => {
       <div className="row">
         <div className="col-sm-12 col-lg-6">
           <Smoothies updateShopping={handleAddProduct} />
+          <Slider />
         </div>
         <div className="col-sm-12 col-lg-6">
           <Juices updateShopping={handleAddProduct} />
@@ -52,6 +54,9 @@ const Shopping = props => {
         </div>
         <div className="col-sm-12 col-lg-6">
           <Daiquiris updateShopping={handleAddProduct} />
+          <div className="d-flex">
+            <img className="m-auto" src={daiquiris} alt="par daiquiris" />
+          </div>
         </div>
       </div>
 

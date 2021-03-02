@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import SliderT from '../components/AvocadoSlide';
 import Basic from '../components/Basic';
 import AvocadoList from '../constants/avocados';
 
@@ -15,6 +16,9 @@ const Avocados = props => {
           updateShopping={updateShopping}
         />
       ))}
+      <div className="w-100">
+        <SliderT />
+      </div>
     </div>
   );
 };

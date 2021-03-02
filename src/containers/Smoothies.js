@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Slider from '../components/Slider';
 import Smoothie from '../components/Smoothie';
 import smoothiesList from '../constants/smoothies';
 
@@ -21,6 +22,7 @@ const Smoothies = props => {
           updateShopping={updateShopping}
         />
       ))}
+      <Slider />
     </div>
   );
 };

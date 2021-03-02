@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import Basic from '../components/Basic';
+import SliderP from '../components/PaninisSlide';
 import PaninisList from '../constants/paninos';
 
 const Paninis = props => {
@@ -15,6 +16,7 @@ const Paninis = props => {
           updateShopping={updateShopping}
         />
       ))}
+      <SliderP />
     </div>
   );
 };

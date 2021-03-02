@@ -94,6 +94,8 @@ code {
 button {
   border: none;
   background: #e0bf03;
+  min-width: 25px;
+  min-height: 25px;
   width: 30px;
   height: 30px;
   color: #fff !important;
@@ -110,9 +112,10 @@ button {
 }
 
 button:hover {
-  color: #404040 !important;
+  color: #ebc803 !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
+  border: 1px solid #ebc803;
   background: none;
   -webkit-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);

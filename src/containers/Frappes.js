@@ -1,10 +1,21 @@
 import PropTypes from 'prop-types';
 import Basic from '../components/Basic';
+import moka from '../assets/chocolateweb.jpg';
 
 const Frappes = props => {
   const { updateShopping } = props;
-  const FrappeList = [{ id: 1, name: 'FRAPUCCINO', precio: 45 },
-    { id: 2, name: 'MOKACCINO', precio: 45 }];
+  const FrappeList = [{
+    id: 1,
+    name: 'FRAPUCCINO',
+    description: 'Café, chocolate líquido, crema batida y topping de granola con amaranto',
+    precio: 49,
+  },
+  {
+    id: 2,
+    name: 'MOKACCINO',
+    description: 'Café, cocoa Hersheys, chocolate líquido, crema batida y topping de granola con amaranto',
+    precio: 49,
+  }];
   return (
     <div>
       <p className="title">Frappes</p>
@@ -17,6 +28,7 @@ const Frappes = props => {
             updateShopping={updateShopping}
           />
         ))}
+        <img src={moka} className="w-100" alt="mokaccino" />
       </div>
     </div>
   );

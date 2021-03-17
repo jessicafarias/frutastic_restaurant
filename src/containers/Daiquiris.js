@@ -20,7 +20,7 @@ const Daiquiris = props => {
           ))}
         </div>
         <div className="d-flex">
-          <img className="m-auto w-75 daiquiri_img" src={daiquiris} alt="par daiquiris" />
+          <img className="m-auto w-50 daiquiri_img" src={daiquiris} alt="par daiquiris" />
         </div>
       </div>
     </div>

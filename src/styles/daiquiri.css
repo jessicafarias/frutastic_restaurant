@@ -7,5 +7,8 @@
 .st6 { font-size: 35.4px; }
 
 .daiquiri_img {
+  margin-top: 10px;
   max-width: 210px;
+  object-fit: contain;
+  object-position: center center;
 }

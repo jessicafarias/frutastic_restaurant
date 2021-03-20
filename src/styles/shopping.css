@@ -50,3 +50,26 @@
 .btn-remove {
   background-color: rgb(177, 5, 5);
 }
+
+.logo_menu {
+  width: 50%;
+  max-width: 250px;
+  padding-top: 15px;
+  min-width: 180px;
+}
+
+.instructions {
+  font-family: 'Amatic', 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.link_bottom{
+  color:rgb(224, 202, 0);
+}
+.link_bottom:hover{
+  color:rgb(20, 175, 0);
+}

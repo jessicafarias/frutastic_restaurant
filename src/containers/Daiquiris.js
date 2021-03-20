@@ -8,7 +8,7 @@ const Daiquiris = props => {
   return (
     <div>
       <p className="title">Daiquiris</p>
-      <p className="subtitle w-75 m-auto">BEBIDA FROZEN A BASE DE PULPA DE FRUTA, TAJIN, CHAMOY LIQUIDO CON BANDERILLA DE TAMARINDO</p>
+      <p className="subtitle w-75 m-auto">BEBIDA FROZEN A BASE DE PULPA DE FRUTA, TAJIN, CHAMOY LIQUIDO CON BANDERILLA DE TAMARINDO Y DULCES DE TAMARINDO CON CHILE</p>
       <div className="col-12">
         <div className="row">
           {DaiquiriList.map(d => (

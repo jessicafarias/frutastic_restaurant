@@ -8,13 +8,13 @@ const WafflesList = [{
   name: 'WAFFLE FRUTASTIC',
   precio: 45,
   color: 'yellow',
-  description: 'Un delicioso waffle, acompañado de nuestras frutas más frescas con granola y su porción de miel',
+  description: 'Un delicioso waffle, acompañado de nuestras frutas más frescas con granola y su porción de miel de abeja y lechera',
 },
 {
   id: 3,
   name: 'DELI WAFFLE',
   precio: 45,
-  description: 'Un delicioso waffle, acompañado de triángulitos de pechuga de pavo y queso manchegotos de pechuga de pavo, queso manchego holandés, rollitos de pepino verde y tomate saladet, sobre mezcla de lechugas y espinacas. Espolvoreado con amaranto y chia. Aderezo de la casa a parte',
+  description: 'Un delicioso waffle, acompañado de triángulitos de pechuga de pavo y queso manchego, miel de abeja y lechera',
 },
 {
   id: 4,

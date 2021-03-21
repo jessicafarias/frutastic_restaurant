@@ -12,7 +12,7 @@ import Avocados from './Avocados';
 import Paninis from './Paninis';
 import '../styles/shopping.css';
 import '../styles/style.scss';
-import WafflesList from '../constants/Waffles';
+import Waffles from './Waffles';
 import OmeletteList from '../constants/omelettes';
 import { removeProductAction, addProductAction } from '../actions';
 import Classic from './Classic';
@@ -61,10 +61,10 @@ const Shopping = props => {
       <div className="row">
         <div className="col-sm-12 col-lg-5">
           <Frappes updateShopping={handleAddProduct} />
-          <Licuados updateShopping={handleAddProduct} />
         </div>
         <div className="col-sm-12 col-lg-6">
           <Daiquiris updateShopping={handleAddProduct} />
+          <Licuados updateShopping={handleAddProduct} />
         </div>
       </div>
 
@@ -75,12 +75,7 @@ const Shopping = props => {
         </div>
         <div className="col-sm-12 col-lg-6">
           <Paninis updateShopping={handleAddProduct} />
-          <Classic
-            title="Waffles"
-            subtitle="RECETA ESPECIAL DE LA CASA PARA WAFFLES CRUJIENTES POR FUERA SUAVES POR DENTRO"
-            List={WafflesList}
-            updateShopping={handleAddProduct}
-          />
+          <Waffles handleAddProduct={handleAddProduct} />
           <Classic
             title="Omelettes"
             List={OmeletteList}
@@ -208,7 +203,6 @@ const Shopping = props => {
           </div>
         </a>
       </section>
-
     </div>
   );
 };

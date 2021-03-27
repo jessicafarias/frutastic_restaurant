@@ -17,19 +17,25 @@ const Licuados = props => {
   }, {
     id: 5,
     name: 'MALTEADA DE FRESA',
-    description: 'Malteada de fresas naturales acompada con jalea de frutos rojos, crema batida y topping de granola y amaranto',
+    description: 'Malteada de fresas naturales, leche, jalea de frutos rojos, crema batida y topping de granola con amaranto',
     precio: 49,
   },
   {
     id: 6,
-    name: 'MALTEADA DE FRESA CON CHOCOLATE',
-    description: 'Malteada de fresa natural acompada con chocolate liquido Hersheys, crema batida y topping de granola y amaranto',
+    name: 'MALTEADA CHOCOFRESA',
+    description: 'Malteada de fresa natural, leche, chocolate liquido Hersheys, crema batida y topping de granola con amaranto',
     precio: 49,
   },
   {
     id: 7,
-    name: 'MALTEADA DE MANGO',
-    description: 'Malteada de mango acompañada de jalea de mango, crema batida y topping de granola con amaranto',
+    name: 'MALTEADA TROPICAL',
+    description: 'Malteada de mango ataulfo con piña, leche, jalea de mango, crema batida y topping de granola con amaranto',
+    precio: 49,
+  },
+  {
+    id: 7,
+    name: 'MALTEADA DE FRUTOS ROJOS',
+    description: 'Malteada de blueberries, frambuesa, zarzamora, fresa y leche, con jalea de frutos rojos, crema batida y topping de granola con amaranto',
     precio: 49,
   }];
   return (

@@ -23,7 +23,7 @@ const FrappeList = [{
   precio: 35,
 },
 {
-  id: 3,
+  id: 4,
   name: 'CHOCOLATE FRIO',
   description: 'Leche de tu preferencia con cocoa Hersheys',
   precio: 35,

@@ -36,7 +36,7 @@ const Licuados = props => {
     id: 7,
     name: 'MALTEADA DE FRUTOS ROJOS',
     description: 'Malteada de blueberries, frambuesa, zarzamora, fresa y leche, con jalea de frutos rojos, crema batida y topping de granola con amaranto',
-    precio: 49,
+    precio: 55,
   }];
   return (
     <div>

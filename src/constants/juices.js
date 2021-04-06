@@ -64,7 +64,7 @@ const JuicesList = [{
 {
   id: 10,
   name: 'JUGO NARANJA',
-  description: '100% jugo natural, hecho al momento',
+  description: '100% jugo natural, exprimido al momento al momento',
   color: '#D4841E',
   precio: 25,
 },
@@ -78,28 +78,35 @@ const JuicesList = [{
 {
   id: 12,
   name: 'LIMONADA CON CHÍA',
-  description: '100% jugo natural, hecho al momento un chía',
+  description: '100% jugo natural, exprimido al momento',
   color: '#B4C52D',
   precio: 20,
 },
 {
   id: 13,
   name: 'LIMONADA CON PEPINO',
-  description: '100% jugo natural, hecho al momento',
+  description: '100% jugo natural, exprimido al momento',
+  color: '#3C9741',
+  precio: 20,
+},
+{
+  id: 13,
+  name: 'LIMONADA CON FRESA',
+  description: '100% jugo natural, exprimido al momento',
   color: '#3C9741',
   precio: 20,
 },
 {
   id: 14,
   name: 'NARANJADA',
-  description: 'Hecho con jugo natural, hecho al momento',
+  description: 'Hecho con jugo natural, exprimido al momento',
   color: '#D48448',
   precio: 20,
 },
 {
   id: 15,
   name: 'PERSONALIZADO',
-  description: 'Hecho con jugo natural, hecho al momento',
+  description: 'Escoge hasta 4 frutas/verduras: Fresa, papaya, melón, plátano, piña, naranja, limón, apio, jengibre, guayaba, espinaca, perejil,toronja,pepino',
   color: '#D5AE1C',
   precio: 30,
 }];

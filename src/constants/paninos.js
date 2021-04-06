@@ -14,7 +14,7 @@ const PaninisList = [{
   id: 3,
   name: 'PANINO DE 3 QUESOS',
   precio: 85,
-  description: 'Para los amantes de sabores fuertes: imperdible combinación de queso azul, queso de cabra y queso manchego, rallado de verduras, tomate aguacate y nuestro aderezo casero',
+  description: 'Para los amantes de sabores fuertes: imperdible combinación de queso azul, queso de cabra y queso manchego, pechuga de pavo, rallado de verduras, tomate, aguacate hass y nuestro aderezo casero',
 },
 {
   id: 5,

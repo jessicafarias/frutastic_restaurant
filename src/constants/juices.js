@@ -94,7 +94,7 @@ const JuicesList = [{
   name: 'LIMONADA CON FRESA',
   description: '100% jugo natural, exprimido al momento',
   color: '#3C9741',
-  precio: 20,
+  precio: 25,
 },
 {
   id: 14,

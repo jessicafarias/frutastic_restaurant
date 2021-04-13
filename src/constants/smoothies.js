@@ -1,7 +1,7 @@
 const smoothiesList = [{
   id: 1,
   name: 'MAGENTA',
-  description: 'Manzana, betabel, pera, espinaca, perejil, jengibre, platano, chía pudding, rodajas de kiwi y topping de granola con amaranto',
+  description: 'Manzana, betabel, pera, jengibre, platano, chía pudding, rodajas de kiwi y topping de granola con amaranto',
   color: '#B0347E',
   precio: 55,
 },

@@ -40,6 +40,12 @@ const FrappeList = [{
   description: 'Leche de tu preferencia con cocoa Hersheys',
   precio: 30,
 },
+{
+  id: 7,
+  name: 'PIÑA COLADA',
+  description: 'Bebida frappé a base de piña natural, crema de coco, con jalea de piña en el fondo y topping de granola y amaranto',
+  precio: 30,
+},
 ];
 
 export default FrappeList;

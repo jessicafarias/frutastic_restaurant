@@ -23,6 +23,12 @@ const FrappeList = [{
   precio: 49,
 },
 {
+  id: 9,
+  name: 'FRAPPE DE CAJETA',
+  description: 'Bebida frappé de cajeta con cajeta líquida en el fondo, crema batida y topping de granola y amaranto',
+  precio: 49,
+},
+{
   id: 3,
   name: 'LATTE FRIO',
   description: 'Bebida fria de café con leche',

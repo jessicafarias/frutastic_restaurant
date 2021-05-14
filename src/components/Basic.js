@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import '../styles/simple.css';
-import Image from './Image';
 
 const Basic = props => {
   const { product, updateShopping } = props;
@@ -43,9 +42,7 @@ const Basic = props => {
           <button type="submit" onClick={() => { updateShopping(product); }}>+</button>
         </div>
       </div>
-      <div className="m-auto d-flex justify-content-center align-items-center salad">
-        <Image url={product.image} />
-      </div>
+      <div className="m-auto d-flex justify-content-center align-items-center salad" />
     </div>
   );
 };

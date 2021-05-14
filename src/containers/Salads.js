@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import Basic from '../components/Basic';
+import BCarousel from '../components/BCarousel';
 import SaladsList from '../constants/Salads';
+import SaladImages from '../ImagesList/SalladImages';
 
 const Salads = props => {
   const { updateShopping } = props;
@@ -15,6 +17,7 @@ const Salads = props => {
           updateShopping={updateShopping}
         />
       ))}
+      <BCarousel ImagesList={SaladImages} />
     </div>
   );
 };

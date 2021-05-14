@@ -9,7 +9,7 @@
   background-color: rgb(224, 202, 0);
 }
 
-.text_subtotal{
+.text_subtotal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -30,7 +30,7 @@
 }
 
 .seleccionados {
-  color:rgb(224, 202, 0);
+  color: rgb(224, 202, 0);
   font-family: 'Amatic', 'Arial Narrow Bold', sans-serif;
   font-size: 35px;
   text-align: center;
@@ -38,7 +38,7 @@
 }
 
 .item {
-  color:rgb(224, 202, 0);
+  color: rgb(224, 202, 0);
   border: rgb(224, 202, 0);
   border-radius: 10px;
   font-size: 30px;
@@ -60,16 +60,17 @@
 
 .instructions {
   font-family: 'Amatic', 'Courier New', Courier, monospace;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   padding: 30px;
   color: white;
   padding-bottom: 20px;
 }
 
-.link_bottom{
-  color:rgb(224, 202, 0);
+.link_bottom {
+  color: rgb(224, 202, 0);
 }
-.link_bottom:hover{
-  color:rgb(20, 175, 0);
+
+.link_bottom:hover {
+  color: rgb(20, 175, 0);
 }

@@ -50,7 +50,7 @@
 .max-200 {
   max-width: 300px;
   border-radius: 10px;
-  margin:auto;
+  margin: auto;
   object-fit: fill;
   object-position: center center;
 }

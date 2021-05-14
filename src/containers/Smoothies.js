@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
-import Slider from '../components/Slider';
+import BCarousel from '../components/BCarousel';
 import Smoothie from '../components/Smoothie';
 import smoothiesList from '../constants/smoothies';
+import SmoothieImages from '../ImagesList/SmoothieImages';
 
 const Smoothies = props => {
   const { updateShopping } = props;
@@ -22,7 +23,7 @@ const Smoothies = props => {
           updateShopping={updateShopping}
         />
       ))}
-      <Slider />
+      <BCarousel ImagesList={SmoothieImages} />
     </div>
   );
 };

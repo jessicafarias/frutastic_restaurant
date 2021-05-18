@@ -7,7 +7,7 @@ const Juices = props => {
   return (
     <div className="w-max">
       <p className="title">Jugos</p>
-      <p className="subtitle w-100">PREPARADO AL MOMENTO</p>
+      <p className="subtitle w-100">PREPARADOS A MOMENTO DE TU ORDEN, ELIJE EL ENDULZANTE DE TU PREFERENCIA </p>
       {JuicesList.map(juice => (
         <Juice
           key={juice.id}

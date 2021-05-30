@@ -32,7 +32,7 @@ const FrappeList = [{
   id: 5,
   name: 'FRAPPE AVELLANADO',
   description: 'Frappé a base de crema de avellanas con cacao, más crema de avellanas en el vaso, crema batida, topping de granola y amaranto. ¡Te va a encantar!',
-  precio: 59,
+  precio: 49,
 },
 {
   id: 6,

@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import Basic from '../components/Basic';
-import SliderP from '../components/PaninisSlide';
 import PaninisList from '../constants/paninos';
+import BCarousel from '../components/BCarousel';
+import FoodImages from '../ImagesList/FoodImages';
 
 const Paninis = props => {
   const { updateShopping } = props;
@@ -16,7 +17,7 @@ const Paninis = props => {
           updateShopping={updateShopping}
         />
       ))}
-      <SliderP />
+      <BCarousel ImagesList={FoodImages} />
     </div>
   );
 };

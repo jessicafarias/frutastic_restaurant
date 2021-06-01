@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import Basic from '../components/Basic';
-import moka from '../assets/chocolateweb.jpg';
 import FrappeList from '../constants/frappes';
+import BCarousel from '../components/BCarousel';
+import FrappesImages from '../ImagesList/FrappesImages';
 
 const Frappes = props => {
   const { updateShopping } = props;
@@ -17,7 +18,7 @@ const Frappes = props => {
             updateShopping={updateShopping}
           />
         ))}
-        <img src={moka} className="w-100" alt="mokaccino" />
+        <BCarousel ImagesList={FrappesImages} />
       </div>
     </div>
   );

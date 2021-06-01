@@ -36,24 +36,30 @@ const FrappeList = [{
 },
 {
   id: 6,
+  name: 'FRAPPE DE TARO',
+  description: 'Frappé de taro, crema batida, caramelo líquido y topping de granola y amaranto.',
+  precio: 49,
+},
+{
+  id: 7,
   name: 'LATTE FRIO',
   description: 'Bebida fria de café con leche',
   precio: 30,
 },
 {
-  id: 7,
+  id: 8,
   name: 'MOKACCINO FRIO',
   description: 'Bebida fria de café con leche y cocoa Hersheys',
   precio: 30,
 },
 {
-  id: 8,
+  id: 9,
   name: 'CHOCOLATE FRIO',
   description: 'Leche de tu preferencia con cocoa Hersheys',
   precio: 30,
 },
 {
-  id: 9,
+  id: 10,
   name: 'PIÑA COLADA',
   description: 'Bebida frappé a base de piña natural, crema de coco, con jalea de piña en el fondo y topping de granola y amaranto',
   precio: 49,

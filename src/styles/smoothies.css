@@ -37,12 +37,12 @@
   color: white;
   font-size: 30px;
   text-align: center;
-  font-family: 'Amatic', 'Courier New', Courier, monospace;
+  font-family: 'Amatic', 'sans-serif', Courier, monospace;
 }
 
 .nicecream {
   color: white;
-  font-family: 'Seaside', 'Courier New', Courier, monospace;
+  font-family: 'Seaside', 'sans-serif', Courier, monospace;
   font-size: 50px;
   transform: translateY(-40%);
 }

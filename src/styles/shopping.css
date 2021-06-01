@@ -59,7 +59,7 @@
 }
 
 .instructions {
-  font-family: 'Amatic', 'Courier New', Courier, monospace;
+  font-family: 'Amatic', 'sans-serif', Courier, monospace;
   font-size: 25px;
   text-align: center;
   padding: 30px;

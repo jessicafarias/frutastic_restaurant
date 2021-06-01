@@ -24,7 +24,7 @@ code {
   font-family:
     'Ubuntu',
     'Cantarell',
-    'Courier New',
+    'sans-serif',
     monospace;
 }
 
@@ -54,7 +54,7 @@ code {
 
 .sunglory {
   color: white;
-  font-family: 'sunglory', 'Courier New', Courier, monospace;
+  font-family: 'sunglory', 'sans-serif', Courier, monospace;
   line-height: 15px;
   font-size: 20px;
   text-align: start;
@@ -67,11 +67,11 @@ code {
   color: #e9bf46;
   text-align: center;
   font-size: 70px;
-  font-family: 'Seaside', 'Courier New', Courier, monospace;
+  font-family: 'Seaside', 'sans-serif', Courier, monospace;
 }
 
 .subtitle {
-  font-family: 'Amatic', 'Courier New', Courier, monospace;
+  font-family: 'Amatic', 'sans-serif', Courier, monospace;
   font-size: 25px;
   text-align: center;
   color: white;
@@ -79,7 +79,7 @@ code {
 }
 
 .price_text {
-  font-family: 'Amatic', 'Courier New', Courier, monospace;
+  font-family: 'Amatic', 'sans-serif', Courier, monospace;
   font-size: 70px;
 }
 

@@ -15,7 +15,7 @@ const JuicesList = [{
 {
   id: 3,
   name: 'QUITANTOJOS',
-  description: 'Naranja, toronja, papaya, jengibre',
+  description: 'Naranja, limón, papaya, jengibre',
   color: '#D99230',
   precio: 30,
 },
@@ -69,13 +69,6 @@ const JuicesList = [{
   precio: 25,
 },
 {
-  id: 11,
-  name: 'JUGO DE TORONJA',
-  description: '100% jugo natural, hecho al momento',
-  color: '#B68E82',
-  precio: 25,
-},
-{
   id: 12,
   name: 'LIMONADA CON CHÍA',
   description: '100% jugo natural, exprimido al momento',
@@ -93,13 +86,6 @@ const JuicesList = [{
   id: 16,
   name: 'LIMONADA CON FRESA',
   description: '100% jugo natural, exprimido al momento',
-  color: '#3C9741',
-  precio: 25,
-},
-{
-  id: 16,
-  name: 'MOJITO',
-  description: 'Limon, hierbabuena y mascabado',
   color: '#3C9741',
   precio: 25,
 },

@@ -1,7 +1,7 @@
 const SaladsList = [{
   id: 1,
   name: 'DE FRUTAS',
-  precio: 35,
+  precio: 45,
   image: 'none',
   description: 'Generosa porción de frutas frescas rociadas con miel y amaranto, acompañado de chia pudding y granola',
 }, {
@@ -16,7 +16,7 @@ const SaladsList = [{
   precio: 60,
   color: 'yellow',
   image: 'none',
-  description: 'Cubitos de naranja y toronja, láminas de fresa y kiwi, crutones de pan de semillas tostado al momento, sobre frescas lechugas y espinacas. Espolvoreado con amaranto y chía. Aderezo a parte',
+  description: 'Cubitos de naranja y mango, láminas de fresa y kiwi, crutones de pan de semillas tostado al momento, sobre frescas lechugas y espinacas. Espolvoreado con amaranto y chía. Aderezo a parte',
 },
 {
   id: 3,
